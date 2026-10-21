@@ -80,7 +80,7 @@ class GerenciadorFrota {
         if (this.frota.lenght === 0) {
             this.conainerDOMN.innerHTML = `
 <div class="alert alert-info text-center"> Nenhum cadastro encontrado na frota</div>
-`;
+`;// to testando
         } else {
             this.frota.forEach(vazio => {
                 //invocar o método renderizar do próprio
